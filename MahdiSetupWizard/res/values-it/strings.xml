@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+     Copyright (C) 2013 The MoKee OpenSource Project
+     Modifications Copyright (C) 2014 The NamelessRom Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">Setup Mahdi</string>
+
+    <string name="next">Prossimo</string>
+    <string name="continue_label">Continua</string>
+    <string name="prev">Precedente</string>
+    <string name="skip">Salta</string>
+    <string name="finish">Fine</string>
+    <string name="cancel">Cancella</string>
+    <string name="create">Crea</string>
+    <string name="login">Login</string>
+    <string name="ok">OK</string>
+    <string name="existing">Account esistente</string>
+    <string name="new_account">Crea nuovo account</string>
+    <string name="skip_anyway">Salta comunque</string>
+    <string name="dont_skip">Non saltare</string>
+
+    <string name="setup_complete">Il setup è completo</string>
+    <string name="setup_complete_summary">Congratulazioni! Hai finito di impostare il tuo dispositivo.</string>
+    <string name="setup_welcome">Benvenuto nella Mahdi ROM</string>
+    <string name="setup_welcome_summary">Per cominciare ad impostare il tuo dispositivo, seleziona data e ora.</string>
+    <string name="setup_sim_missing">Inserisci SIM</string>
+    <string name="setup_google_account">Account Google</string>
+    <string name="setup_location">Impostazioni posizione</string>
+    <string name="setup_datetime">Data &amp; impostazioni ora</string>
+    <string name="setup_current_date">Data attuale</string>
+    <string name="setup_current_time">Ora corrente</string>
+    <string name="setup_inputmethod">Impostazioni metodo di immissione</string>
+    <string name="setup_inputmethod_summary">Seleziona il metodo di immissione preferito</string>
+    <string name="setup_inputmethod_none">Non ci sono metodi di immisssione installati!</string>
+    <string name="setup_msg_no_network">ATTENZIONE: Non potrai impostare il tuo account</string>
+    <string name="setup_warning_skip_wifi">ATTENZIONE: Potresti usare la connessione dati.\n\nIl setup del device richiede una connessione.</string>
+
+    <string name="sim_missing_summary">Devi fare riferimento alle istruzioni della SIM.</string>
+    <string name="google_account_summary">Vuoi impostare un account Google?</string>
+
+    <string name="btn_additional_wizards">Lancia wizard addizionali (consigliato)</string>
+    <string name="btn_additional_wizards_relaunch">Lancia di nuovo wizard addizionali</string>
+    <string name="btn_google_account">Imposta account Google</string>
+
+    <string name="location_access_title">Accesso alla mia posizione</string>
+    <string name="location_access_summary">Permetti alla applicazioni di accedere alla tua posizione</string>
+    <string name="location_sources_heading">Fonti posizione</string>
+    <string name="location_gps">Satelliti GPS</string>
+    <string name="location_street_level">Permetti alle applicazioni di usare il GPS per la tua posizione</string>
+    <string name="location_network_based">Wi-Fi &amp; posizione dati mobili</string>
+    <string name="location_neighborhood_level">Permetti alle applicazioni di accedere alla tua posizione tramite Google. Le posizioni anonime saranno collezionate e inviate a Google.</string>
+</resources>

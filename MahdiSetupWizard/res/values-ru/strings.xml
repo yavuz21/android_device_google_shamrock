@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+     Copyright (C) 2013 The MoKee OpenSource Project
+     Modifications Copyright (C) 2014 The NamelessRom Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="next">Далее</string>
+    <string name="continue_label">Продолжить</string>
+    <string name="prev">Назад</string>
+    <string name="skip">Пропустить</string>
+    <string name="finish">Готово</string>
+    <string name="cancel">Отмена</string>
+    <string name="create">Создать</string>
+    <string name="login">Войти</string>
+    <string name="ok">ОК</string>
+    <string name="existing">Войти в существующую учетную запись</string>
+    <string name="new_account">Создать новую учетную запись</string>
+    <string name="skip_anyway">Пропустить в любом случае</string>
+    <string name="dont_skip">Не пропускать</string>
+
+    <string name="setup_complete">Установка завершена</string>
+    <string name="setup_complete_summary">Поздравляем! Вы завершили настройку устройства.</string>
+    <string name="setup_welcome">Добро пожаловать в Mahdi Rom</string>
+    <string name="setup_welcome_summary">Для начала настройки устройства, выберите язык и нажмите продолжить.</string>
+    <string name="setup_sim_missing">Вставьте SIM-карту</string>
+    <string name="setup_google_account">Учетная запись Google</string>
+    <string name="setup_location">Настройка местоположения</string>
+    <string name="setup_datetime">Настройка даты и времени</string>
+    <string name="setup_current_date">Текущая дата</string>
+    <string name="setup_current_time">Текущее время</string>
+    <string name="setup_inputmethod">Настройки способа ввода</string>
+    <string name="setup_inputmethod_summary">Выберите способ ввода, который вы предпочитаете</string>
+    <string name="setup_inputmethod_none">Ни один способ ввода не установлен!</string>
+    <string name="setup_msg_no_network">ПРЕДУПРЕЖДЕНИЕ: Вы не сможете настроить учетные записи</string>
+    <string name="setup_warning_skip_wifi">ПРЕДУПРЕЖДЕНИЕ: Вы можете понести дополнительные расходы.\n\nНастройка устройства может потребовать сетевую активность.</string>
+
+    <string name="sim_missing_summary">Вам нужно обратиться к инструкции по SIM-карте, поставляемой вместе с устройством.</string>
+    <string name="google_account_summary">Хотите настроить учетную запись Google?</string>
+
+    <string name="btn_additional_wizards">Запустить дополнительные мастера настроек (рекомендуется)</string>
+    <string name="btn_additional_wizards_relaunch">Возобновить дополнительные мастера настроек</string>
+    <string name="btn_google_account">Создать учетную запись Google</string>
+
+    <string name="location_access_title">Доступ к моему местоположению</string>
+    <string name="location_access_summary">Разрешить приложениям запрашивать разрешение на использование информации о вашем местоположении</string>
+    <string name="location_sources_heading">Источники местоположения</string>
+    <string name="location_gps">Спутники GPS</string>
+    <string name="location_street_level">Разрешить приложениям использовать GPS, чтобы определить ваше местоположение</string>
+    <string name="location_network_based">Wi-Fi и мобильные сети</string>
+    <string name="location_neighborhood_level">Разрешить приложениям использовать службу определения местоположения Google, для более быстрого определения вашего местоположения. Анонимные данные о местоположении будут собраны и отправлены в Google.</string>
+</resources>

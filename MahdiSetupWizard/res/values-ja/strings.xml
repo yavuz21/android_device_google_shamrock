@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+     Copyright (C) 2013 The MoKee OpenSource Project
+     Modifications Copyright (C) 2014 The NamelessRom Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">Mahdiセットアップウィザード</string>
+
+    <string name="next">次へ</string>
+    <string name="continue_label">続行</string>
+    <string name="prev">前へ</string>
+    <string name="skip">スキップ</string>
+    <string name="finish">完了</string>
+    <string name="cancel">キャンセル</string>
+    <string name="create">作成</string>
+    <string name="login">ログイン</string>
+    <string name="ok">OK</string>
+    <string name="existing">既存のアカウントにログイン</string>
+    <string name="new_account">新しいアカウントを作成</string>
+    <string name="skip_anyway">とにかくスキップ</string>
+    <string name="dont_skip">スキップしない</string>
+
+    <string name="setup_complete">セットアップ完了</string>
+    <string name="setup_complete_summary">おめでとう!お使いのデバイスのセットアップが完了しました。</string>
+    <string name="setup_welcome">ようこそMahdi Romへ</string>
+    <string name="setup_welcome_summary">セットアップを続行するには言語を選択してください</string>
+    <string name="setup_sim_missing">SIMカードを挿入してください</string>
+    <string name="setup_google_account">Googleアカウント</string>
+    <string name="setup_location">位置情報の設定</string>
+    <string name="setup_datetime">日付と時刻の設定</string>
+    <string name="setup_current_date">現在の日付</string>
+    <string name="setup_current_time">現在の時刻</string>
+    <string name="setup_inputmethod">入力方法の設定</string>
+    <string name="setup_inputmethod_summary">お好みの入力方法を選択します</string>
+    <string name="setup_inputmethod_none">入力方法がインストールされていません!</string>
+    <string name="setup_msg_no_network">警告:アカウントを設定することはできません</string>
+    <string name="setup_warning_skip_wifi">警告:キャリアデータ料金が発生する場合があります。 \n\nデバイス設定はネットワークアクティビティを必要とすることがあります。</string>
+
+    <string name="sim_missing_summary">お使いのデバイスに付属のSIMカードの説明書を参照してください</string>
+    <string name="google_account_summary">Googleアカウントを設定しますか?</string>
+
+    <string name="btn_additional_wizards">追加ウィザードを起動(推奨)</string>
+    <string name="btn_additional_wizards_relaunch">追加ウィザードを再起動</string>
+    <string name="btn_google_account">Googleアカウントの設定</string>
+
+    <string name="location_access_title">位置情報へのアクセス</string>
+    <string name="location_access_summary">アプリがあなたの位置情報を使用することを許可する</string>
+    <string name="location_sources_heading">位置情報モード</string>
+    <string name="location_gps">GPS</string>
+    <string name="location_street_level">場所を特定するためにGPSを使用します</string>
+    <string name="location_network_based">Wi-Fiとモバイルネットワーク</string>
+    <string name="location_neighborhood_level">より速く場所を推定するためにGoogleの位置情報サービスを利用します。匿名位置データが収集され、Googleに送信されます。</string>
+</resources>
