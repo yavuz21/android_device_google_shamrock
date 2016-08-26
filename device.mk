@@ -35,7 +35,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     OTAUpdates
 
-PRODUCT_PACKAGES += MahdiSetupWizard
+
+    
 # OTA dependencies
 PRODUCT_PROPERTY_OVERRIDES += \
         ro.ota.romname=CyanogenMod-13.0-for-Shamrock \
