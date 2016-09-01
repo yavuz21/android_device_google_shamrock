@@ -16,7 +16,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 DEVICE_PATH := device/google/shamrock
-
+OUT := out/target/product/shamrock/
 # Screen density
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
