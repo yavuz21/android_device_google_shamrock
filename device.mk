@@ -20,23 +20,22 @@ OUT := out/target/product/shamrock/
 # Screen density
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
-
 #Cyanogen Blobs
 $(shell mkdir -p $(OUT)/obj/lib)
 $(shell mkdir -p $(OUT)/obj/SHARED_LIBRARIES/libaudiopolicymanager_intermediates/export_includes)
+$(shell mkdir -p $(OUT)/ota_temp/SYSTEM/bin/)
 
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/lib/libaudiopolicyenginedefault.so:obj/lib/libaudiopolicyenginedefault.so \
     $(DEVICE_PATH)/lib/libaudiopolicymanager.so:obj/lib/libaudiopolicymanager.so \
     $(DEVICE_PATH)/lib/libaudiopolicymanagerdefault.so:obj/lib/libaudiopolicymanagerdefault.so \
-    $(DEVICE_PATH)/lib/libaudiopolicyservice.so:obj/lib/libaudiopolicyservice.so 
-
+    $(DEVICE_PATH)/lib/libaudiopolicyservice.so:/obj/lib/libaudiopolicyservice.so 
+    $(DEVICE_PATH)/bin/install-recovery.sh:$(OUT)/ota_temp/SYSTEM/bin/install-recovery.sh
+    
 # OTAUpdates
 PRODUCT_PACKAGES += \
     OTAUpdates
 
-
-    
 # OTA dependencies
 PRODUCT_PROPERTY_OVERRIDES += \
         ro.ota.romname=CyanogenMod-13.0-for-Shamrock \
