@@ -20,8 +20,8 @@ TARGET_SCREEN_HEIGHT := 1920
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := shamrock
-PRODUCT_NAME := cm_shamrock
+PRODUCT_NAME := lineage_shamrock
 PRODUCT_BRAND := Google
-PRODUCT_MANUFACTURER := General Mobile
+PRODUCT_MANUFACTURER : Google
 PRODUCT_RELEASE_NAME := shamorck
 
