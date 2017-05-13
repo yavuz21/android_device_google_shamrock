@@ -52,7 +52,7 @@ BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 ENABLE_CPUSETS := true
 TARGET_KERNEL_SOURCE := kernel/google/shamrock
 TARGET_KERNEL_ARCH := arm
-TARGET_KERNEL_CONFIG := msm8952-perf_defconfig
+TARGET_KERNEL_CONFIG := lineage_shamrock_defconfig
 
 
 
